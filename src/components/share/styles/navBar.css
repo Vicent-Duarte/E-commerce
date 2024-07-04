@@ -1,18 +1,18 @@
 .navBar {
      width: 100vw;
      height: 150px;
+     /* position: fixed; */
+     z-index: 5;
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: #fcfcfcdd;
-     border-bottom: 1px solid #757575;
+     background-color: #fcfcfc86;
+     border-bottom: 1px solid #f8f3f3;
      color: #5c5c5c;
      margin-bottom: 20px;
  }
  
  .navBar__container {
- 
-     /* width: 80%; */
      height: 100%;
      padding: 0 20px;
      display: flex;
@@ -23,11 +23,11 @@
  }
  
  .navBar__title-deco {
-     color: orange;
+     color: black;
  }
  
  .navBar__title {
-     color: red;
+     color: cyan;
  }
  
  .navBar span {
@@ -40,6 +40,7 @@
  }
  
  .navBar__item {
+     color: black;
      width: 80px;
      height: 100px;
      display: flex;
@@ -49,8 +50,8 @@
  }
  
  .navBar__item:hover {
-     background-color: #525252;
-     /* transform: scale(0.75); */
+     background-color: #56bdaf;
+     transform: scale(0.75);
      color: #ffff;
      border: 2px solid #c5c5c5;
  }

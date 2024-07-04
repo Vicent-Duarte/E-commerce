@@ -32,12 +32,12 @@
 }
 
 .filterPrice__btn {
-    background-color: #eb2727;
-    color: #fff;
-    border: 1px solid #eb2727;
+    background-color: #69f0f5;
+    color: black;
+    border: 1px solid black;
 }
 
 .filterPrice__btn:hover {
-    background-color: #b31b1b;
-    border: 1px solid #b31b1b;
+    background-color: #072f9e;
+    border: 1px solid #032183;
 }

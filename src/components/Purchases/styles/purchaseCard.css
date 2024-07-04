@@ -1,4 +1,4 @@
-.purchasescard {
+.purchaseCard {
     width: 300px;
     padding: 20px;
     border: 1px solid;
@@ -9,10 +9,10 @@
     place-items: center;
 }
 
-.purchasescard__title {
+.purchaseCard__title {
     grid-column: span 3;
 }
 
-.purchasescard__price {
+.purchaseCard__price {
     grid-column: span 3;
 }
