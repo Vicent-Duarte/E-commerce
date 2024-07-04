@@ -1,0 +1,27 @@
+.cartProduct {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr, 2fr, 1fr;
+    place-items: center;
+    gap: 10px;
+}
+
+.cartProduct__title {
+    grid-column: span 3;
+}
+
+.cartProduct__container {
+    display: flex;
+}
+
+.cartProduct__container span {
+    padding: 3px 10px;
+}
+
+.cartProduct__price {
+    grid-column: span 3;
+}
