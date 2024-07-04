@@ -47,7 +47,7 @@ export const deleteCartThunk = (path, id) => dispatch => {
     axios.delete(url, getToken())
         .then(res => {
             dispatch(delCart(id));
-            console.log('Te borre HDP');
+            console.log('Producto Borrado');
         })
         .catch(err => console.log(err))
 }
