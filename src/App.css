@@ -9,6 +9,7 @@
 }
 
 body {
+  height: 100vh;
   background-color: #f7f7f7;
   color: #4e4e4e;
 }
